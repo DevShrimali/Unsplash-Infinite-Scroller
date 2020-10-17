@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html{
     box-sizing: border-box;
@@ -6,8 +6,8 @@ html{
 
 body{
     margin: 0;
-    font-family: Bebas Neue, sans-serif;
-    background: whitesmoke;
+    font-family: Montserrat, sans-serif;
+    background: rgb(228, 228, 228);
 }
 
 h1{
@@ -17,7 +17,11 @@ h1{
     font-size: 40px;
     letter-spacing: 5px;
 }
+p{
+    text-align: center;
+    margin-top: 10px;
 
+}
 .loader{
     position: fixed;
     top: 0;

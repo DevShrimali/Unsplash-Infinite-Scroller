@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinite Scroller</title>
+    <title>Infinite Wallpaers Scroller</title>
     <link rel="icon" type="image/png" href="http://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Unsplash API- Infinite Scroll</h1>
+    <h1 class="text-white font-semibold text-5xl" data-aos="fade-down">Unsplash API- Infinite Scroll</h1>
+    <div> <p id="demo"></p> </div>
     <div class="loader" id="loader">
         <img src="loader.svg" alt="loader">
     </div>
     <div class="image-container" id="image-container">
         
     </div>
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
+
+<h2>JavaScript new Date()</h2>
+
+
+
+
